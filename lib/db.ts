@@ -41,7 +41,11 @@ export function getInvitations(): Invitation[] {
 export function getInvitationByIdOrSlug(idOrSlug: string): Invitation | null {
   const invitations = getInvitations();
   const match = invitations.find(
-    (inv) => inv.id === idOrSlug || inv.slug === idOrSlug
+    (inv) =>
+      inv.id === idOrSlug ||
+      inv.slug === idOrSlug ||
+      (idOrSlug === "wedding-johny" && inv.slug === "wedding-l7lkp") ||
+      (idOrSlug === "wedding-l7lkp" && inv.slug === "wedding-johny")
   );
   return match || null;
 }
