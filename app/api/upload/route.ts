@@ -17,7 +17,10 @@ export async function POST(req: Request) {
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    const uploadsDir = path.join(process.cwd(), "public", "uploads");
+    const isVercel = !!process.env.VERCEL;
+    const uploadsDir = isVercel
+      ? path.join("/tmp", "uploads")
+      : path.join(process.cwd(), "public", "uploads");
     if (!fs.existsSync(uploadsDir)) {
       fs.mkdirSync(uploadsDir, { recursive: true });
     }

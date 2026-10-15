@@ -3,16 +3,27 @@ import path from "path";
 import { Invitation, RsvpEntry } from "@/types/invitation";
 import { DEFAULT_SAMPLE_INVITATION } from "./presets";
 
-const DATA_DIR = path.join(process.cwd(), "data");
+const IS_VERCEL = !!process.env.VERCEL;
+const DATA_DIR = IS_VERCEL ? path.join("/tmp", "data") : path.join(process.cwd(), "data");
 const DB_FILE = path.join(DATA_DIR, "invitations.json");
+const BUNDLED_DB_FILE = path.join(process.cwd(), "data", "invitations.json");
 
 function ensureDbExists() {
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
   if (!fs.existsSync(DB_FILE)) {
-    const initialData: Invitation[] = [DEFAULT_SAMPLE_INVITATION];
-    fs.writeFileSync(DB_FILE, JSON.stringify(initialData, null, 2), "utf-8");
+    if (IS_VERCEL && fs.existsSync(BUNDLED_DB_FILE)) {
+      try {
+        fs.copyFileSync(BUNDLED_DB_FILE, DB_FILE);
+      } catch {
+        const initialData: Invitation[] = [DEFAULT_SAMPLE_INVITATION];
+        fs.writeFileSync(DB_FILE, JSON.stringify(initialData, null, 2), "utf-8");
+      }
+    } else {
+      const initialData: Invitation[] = [DEFAULT_SAMPLE_INVITATION];
+      fs.writeFileSync(DB_FILE, JSON.stringify(initialData, null, 2), "utf-8");
+    }
   }
 }
 

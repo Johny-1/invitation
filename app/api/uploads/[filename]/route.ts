@@ -14,10 +14,15 @@ export async function GET(
     }
 
     const uploadsDir = path.join(process.cwd(), "public", "uploads");
-    const filePath = path.join(uploadsDir, filename);
+    let filePath = path.join(uploadsDir, filename);
 
     if (!fs.existsSync(filePath)) {
-      return new NextResponse("File not found", { status: 404 });
+      const tmpPath = path.join("/tmp", "uploads", filename);
+      if (fs.existsSync(tmpPath)) {
+        filePath = tmpPath;
+      } else {
+        return new NextResponse("File not found", { status: 404 });
+      }
     }
 
     const ext = path.extname(filename).toLowerCase();
