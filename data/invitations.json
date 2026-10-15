@@ -1,0 +1,282 @@
+[
+  {
+    "id": "inv-haww7p6",
+    "slug": "wedding-l7lkp",
+    "title": "دعوة زفاف جديدة",
+    "createdAt": "2026-10-13T23:12:51.759Z",
+    "updatedAt": "2026-10-13T23:48:17.715Z",
+    "viewsCount": 22,
+    "weddingDetails": {
+      "openingHeader": "باسم الآب والابن والروح القدس",
+      "verseOrQuote": "الآنَ قَدِ اخْتَرْتُ وَقَدَّسْتُ هذَا الْبَيْتَ لِيَكُونَ اسْمِي فِيهِ إِلَى الأَبَدِ",
+      "groomName": "جوني مينا",
+      "groomTitle": "العريس",
+      "groomParents": "",
+      "brideName": "ليديا عماد",
+      "brideTitle": "العروس",
+      "brideParents": "",
+      "weddingDate": "2026-10-26",
+      "weddingTime": "06:00 مساءً",
+      "venueName": "كنيسة العذراء والقديس يوسف سموحة - St. Mary Church Smouha ",
+      "venueAddress": "",
+      "googleMapsUrl": "",
+      "welcomeMessage": "يتشرف العروسين وعائلتيهما بدعوتكم لحضور صلاة الإكليل ومشاركتهم فرحة العمر",
+      "closingMessage": "حضوركم شرف لنا ويزيد من فرحتنا وسرورنا",
+      "notes": "",
+      "schedule": [
+        {
+          "time": "6:00 م",
+          "title": "صلاة الاكليل",
+          "description": "تخليداً لأجمل اللحظات"
+        }
+      ]
+    },
+    "design": {
+      "presetThemeId": "emerald-gold",
+      "primaryColor": "#1e332a",
+      "secondaryColor": "#13211b",
+      "goldAccentColor": "#d4af37",
+      "backgroundColor": "#0d1a15",
+      "backgroundConfig": {
+        "type": "gradient",
+        "solidColor": "#0d1a15",
+        "gradientType": "linear",
+        "gradientFrom": "#1e332a",
+        "gradientVia": "#13211b",
+        "gradientTo": "#09120e",
+        "gradientAngle": 135,
+        "bgImageOpacity": 0.25,
+        "bgImageBlur": 2,
+        "pattern": "dots",
+        "patternOpacity": 0.15,
+        "ambientGlowColor": "#d4af37",
+        "ambientGlowIntensity": 0.45,
+        "bgCustomImage": "/api/uploads/1791932861111-pgc9sq.jpg"
+      },
+      "envelopeColor": "#064e3b",
+      "envelopeLinerColor": "#0b664f",
+      "waxSealColor": "#b8860b",
+      "ribbonColor": "#d4af37",
+      "textColor": "#fef3c7",
+      "fontFamily": "amiri",
+      "backgroundPattern": "dots",
+      "particlesType": "floating-hearts",
+      "animationPreset": "custom-studio",
+      "motionConfig": {
+        "revealMechanism": "gatefold",
+        "triggerType": "wax-seal",
+        "speed": "slow",
+        "physics": "gentle",
+        "stepsCount": 3,
+        "slideDirection": "up",
+        "confettiType": "confetti"
+      },
+      "autoPlayAudioOnOpen": true,
+      "stepDescriptions": {
+        "step1Prompt": "المس الختم الشمعي لفك الختم 👑",
+        "step2Prompt": "اضغط لفتح مظروف الدعوة ✉️",
+        "step3Prompt": "اسحب بطاقة الزفاف للاطلاع ✨"
+      },
+      "particlesDensity": "medium",
+      "particlesSpeed": "slow",
+      "cardInsideImage": "/api/uploads/1791932907176-49jlmh.jpg",
+      "sealImage": "/api/uploads/1791933008572-zo1nle.jpg",
+      "audioUrl": "/api/uploads/1791933157568-peg7cg.mp3"
+    },
+    "rsvpList": []
+  },
+  {
+    "id": "inv-grpxrqw",
+    "slug": "wedding-5gp8l",
+    "title": "دعوة زفاف جديدة",
+    "createdAt": "2026-10-10T23:15:13.678Z",
+    "updatedAt": "2026-10-13T21:50:05.143Z",
+    "viewsCount": 6,
+    "weddingDetails": {
+      "groomName": "ls",
+      "groomTitle": "العريس",
+      "groomParents": "fdfdc",
+      "brideName": "fdfv",
+      "brideTitle": "العروس",
+      "brideParents": "dfd",
+      "weddingDate": "2026-02-12",
+      "weddingTime": "08:30 مساءً",
+      "venueName": "فندق فور سيزونز - قاعة البلازا الكبرى",
+      "venueAddress": "كورنيش النيل، جاردن سيتي، القاهرة",
+      "googleMapsUrl": "",
+      "welcomeMessage": "بأسمى آيات البهجة والسرور، تتشرف عائلتا عبد الله والمنصوري بدعوتكم لحضور حفل زفاف نجليهما",
+      "closingMessage": "حضوركم شرف لنا ويزيد من فرحتنا وسرورنا",
+      "notes": "نرجو تأكيد الحضور عبر النموذج أدناه • جنة الأطفال منازلهم",
+      "schedule": [
+        {
+          "time": "08:00 م",
+          "title": "استقبال الضيوف الكرام والترحيب",
+          "description": "بمشروبات الاستقبال والضيافة الملكية"
+        },
+        {
+          "time": "09:00 م",
+          "title": "مراسم الزفة ودخول العروسين",
+          "description": "أجواء احتفالية رائعة"
+        },
+        {
+          "time": "10:30 م",
+          "title": "العشاء الفاخر",
+          "description": "بوفيه مفتوح بأشهى المأكولات"
+        },
+        {
+          "time": "11:30 م",
+          "title": "تقطيع الكعكة والتقاط الصور",
+          "description": "تخليداً لأجمل اللحظات"
+        }
+      ]
+    },
+    "design": {
+      "presetThemeId": "emerald-gold",
+      "primaryColor": "#064e3b",
+      "secondaryColor": "#022c22",
+      "goldAccentColor": "#d4af37",
+      "backgroundColor": "#031d16",
+      "envelopeColor": "#064e3b",
+      "envelopeLinerColor": "#0b664f",
+      "waxSealColor": "#b8860b",
+      "ribbonColor": "#d4af37",
+      "textColor": "#fef3c7",
+      "fontFamily": "amiri",
+      "backgroundPattern": "damask",
+      "particlesType": "floating-hearts",
+      "animationPreset": "custom-studio",
+      "autoPlayAudioOnOpen": true,
+      "stepDescriptions": {
+        "step1Prompt": "المس الختم الشمعي لفك الختم 👑",
+        "step2Prompt": "اضغط لفتح مظروف الدعوة ✉️",
+        "step3Prompt": "اسحب بطاقة الزفاف للاطلاع ✨"
+      },
+      "envelopeClosedImage": "/uploads/1791674022245-8dmlva.jpg",
+      "envelopeOpenImage": "/uploads/1791674029473-x62m4p.jpg",
+      "cardInsideImage": "/uploads/1791674042568-6nymcw.png",
+      "sealImage": "/uploads/1791674088894-1ryoni.jpg",
+      "audioUrl": "/uploads/1791674108244-r8l1xb.mp3",
+      "motionConfig": {
+        "revealMechanism": "gatefold",
+        "triggerType": "ribbon",
+        "speed": "fast",
+        "physics": "spring",
+        "stepsCount": 2,
+        "confettiType": "petals"
+      },
+      "backgroundConfig": {
+        "type": "gradient",
+        "solidColor": "#1a102f",
+        "gradientType": "linear",
+        "gradientFrom": "#2e1065",
+        "gradientVia": "#1e1b4b",
+        "gradientTo": "#0f172a",
+        "gradientAngle": 120,
+        "pattern": "lattice",
+        "patternOpacity": 0.2,
+        "ambientGlowColor": "#c084fc",
+        "ambientGlowIntensity": 0.6
+      },
+      "particlesSpeed": "slow",
+      "particlesDensity": "high"
+    },
+    "rsvpList": []
+  },
+  {
+    "id": "demo-royal-wedding",
+    "slug": "ahmed-and-mariam",
+    "title": "دعوة زفاف أحمد ومريم",
+    "createdAt": "2026-10-07T10:10:08.246Z",
+    "updatedAt": "2026-10-07T10:10:08.247Z",
+    "viewsCount": 147,
+    "weddingDetails": {
+      "groomName": "أحمد عبد الله",
+      "groomTitle": "العريس",
+      "groomParents": "نجل الأستاذ عبد الله إبراهيم",
+      "brideName": "مريم المنصوري",
+      "brideTitle": "العروس",
+      "brideParents": "كريمة المستشار محمد المنصوري",
+      "weddingDate": "2026-11-20",
+      "weddingTime": "08:30 مساءً",
+      "venueName": "فندق فور سيزونز - قاعة البلازا الكبرى",
+      "venueAddress": "كورنيش النيل، جاردن سيتي، القاهرة",
+      "googleMapsUrl": "https://maps.google.com/?q=Four+Seasons+Hotel+Cairo+at+Nile+Plaza",
+      "welcomeMessage": "بأسمى آيات البهجة والسرور، تتشرف عائلتا عبد الله والمنصوري بدعوتكم لحضور حفل زفاف نجليهما",
+      "closingMessage": "حضوركم شرف لنا ويزيد من فرحتنا وسرورنا",
+      "notes": "نرجو تأكيد الحضور عبر النموذج أدناه • جنة الأطفال منازلهم",
+      "schedule": [
+        {
+          "time": "08:00 م",
+          "title": "استقبال الضيوف الكرام والترحيب",
+          "description": "بمشروبات الاستقبال والضيافة الملكية"
+        },
+        {
+          "time": "09:00 م",
+          "title": "مراسم الزفة ودخول العروسين",
+          "description": "أجواء احتفالية رائعة"
+        },
+        {
+          "time": "10:30 م",
+          "title": "العشاء الفاخر",
+          "description": "بوفيه مفتوح بأشهى المأكولات"
+        },
+        {
+          "time": "11:30 م",
+          "title": "تقطيع الكعكة والتقاط الصور",
+          "description": "تخليداً لأجمل اللحظات"
+        }
+      ]
+    },
+    "design": {
+      "presetThemeId": "emerald-gold",
+      "primaryColor": "#064e3b",
+      "secondaryColor": "#022c22",
+      "goldAccentColor": "#d4af37",
+      "backgroundColor": "#031d16",
+      "envelopeColor": "#064e3b",
+      "envelopeLinerColor": "#0b664f",
+      "waxSealColor": "#b8860b",
+      "ribbonColor": "#d4af37",
+      "textColor": "#fef3c7",
+      "fontFamily": "amiri",
+      "backgroundPattern": "damask",
+      "particlesType": "gold-sparkles",
+      "animationPreset": "royal-wax-envelope",
+      "autoPlayAudioOnOpen": true,
+      "stepDescriptions": {
+        "step1Prompt": "المس الختم الشمعي لفك الختم 👑",
+        "step2Prompt": "اضغط لفتح مظروف الدعوة ✉️",
+        "step3Prompt": "اسحب بطاقة الزفاف للاطلاع ✨"
+      }
+    },
+    "rsvpList": [
+      {
+        "id": "rsvp-1",
+        "guestName": "د. طارق وسام وعائلته",
+        "status": "attending",
+        "companionsCount": 3,
+        "phone": "+201000000001",
+        "wishes": "ألف ألف مبروك للعروسين، بارك الله لكما وجمع بينكما في خير!",
+        "createdAt": "2026-10-06T18:30:00.000Z"
+      },
+      {
+        "id": "rsvp-2",
+        "guestName": "م. حسام الدين",
+        "status": "attending",
+        "companionsCount": 1,
+        "phone": "+201000000002",
+        "wishes": "مبروك يا أحلى عريس، فرحة العمر إن شاء الله.",
+        "createdAt": "2026-10-06T20:15:00.000Z"
+      },
+      {
+        "id": "rsvp-3",
+        "guestName": "أ. ياسر كمال",
+        "status": "declined",
+        "companionsCount": 0,
+        "phone": "+201000000003",
+        "wishes": "نعتذر لظروف السفر، قلوبنا معكم وألف مبروك مقدماً!",
+        "createdAt": "2026-10-07T09:00:00.000Z"
+      }
+    ]
+  }
+]
